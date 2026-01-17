@@ -20,5 +20,6 @@ public class Calculator {
     }
     public static void main(String[] arg){
         Add(2,3);
+        Subtract(5,3);
     }
 }
