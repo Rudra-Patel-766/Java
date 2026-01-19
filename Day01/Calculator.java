@@ -1,3 +1,4 @@
+package Day01;
 public class Calculator {
     public static void Add(int a, int b){
         int sum=a+b;
