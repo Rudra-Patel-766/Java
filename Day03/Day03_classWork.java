@@ -67,23 +67,38 @@ package Day03;
 // }
 
 //instance var
-class Student{
-    int id;
+// class Student{
+//     int id;
+//     String name;
+// }
+
+// public class Day03_classWork {
+//     public static void main(String[] arg){
+//         Student s1 = new Student();
+//         Student s2 = new Student();
+
+//         s1.id=101;
+//         s1.name="Alice";
+
+//         s2.id=102;
+//         s2.name="ABC";
+
+//         System.out.println(s1.id + " " + s1.name);
+//         System.out.println(s2.id + " " + s2.name);
+//     }
+// }
+
+//Instance method
+class Person{
     String name;
-}
 
-public class Day03_classWork {
+    void display(){
+        System.out.println("Name: " + name);
+    }
+
     public static void main(String[] arg){
-        Student s1 = new Student();
-        Student s2 = new Student();
-
-        s1.id=101;
-        s1.name="Alice";
-
-        s2.id=102;
-        s2.name="ABC";
-
-        System.out.println(s1.id + " " + s1.name);
-        System.out.println(s2.id + " " + s2.name);
+        Person p = new Person();
+        p.name = "Jhon";
+        p.display();
     }
 }
