@@ -1,0 +1,2 @@
+Why there is no concept of pointer in java?
+
