@@ -1,2 +1,22 @@
 Why there is no concept of pointer in java?
 
+Pointers allow direct access to memory addresses. If a programmer changes a wrong address, it can overwrite important data, crash the program, or create security risks. This makes programs unreliable and harder to debug.
+
+Java was designed with three clear goals:
+
+Security – Users should not access or modify memory directly.
+
+Reliability – Programs should not crash due to memory misuse.
+
+Simplicity – Developers should focus on logic, not memory management.
+
+To achieve this, Java uses references instead of pointers.
+A reference lets you access an object, but you cannot:
+
+Perform pointer arithmetic
+
+Access raw memory
+
+Modify memory addresses
+
+Memory is handled automatically using garbage collection, which removes unused objects safely. */
