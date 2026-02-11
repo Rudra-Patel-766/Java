@@ -37,24 +37,26 @@ package Day07;
 // }
 
 //ArrayList:
-// import java.util.ArrayList;
+import java.util.ArrayList;
 
-// public class classWork{
-//     public static void main(String[] arg){
-//         ArrayList<String> fruits=new ArrayList<>();
+public class classWork{
+    public static void main(String[] arg){
+        ArrayList<String> fruits=new ArrayList<>();
 
-//         fruits.add("Apple");
-//         fruits.add("Bannana");
-//         fruits.add("Cherry");
+        fruits.add("Apple");
+        fruits.add("Bannana");
+        fruits.add("Cherry");
 
-//         System.out.println("Fruits: " + fruits);
-//         fruits.remove("Bannana");
-//         System.out.println("After removing Bannana: " + fruits);
+        System.out.println("Fruits: " + fruits);
+        fruits.remove("Bannana");
+        System.out.println("After removing Bannana: " + fruits);
 
-//         System.out.println("Size: " + fruits.size());
-//         System.out.println("Contains Apple? " + fruits.contains("Apple"));
-//     }
-// }
+        System.out.println("Size: " + fruits.size());
+        System.out.println("Contains Apple? " + fruits.contains("Apple"));
+
+        System.out.println(fruits.get(0));
+    }
+}
 
 //Vector:
 // import java.util.Vector;
@@ -127,15 +129,15 @@ package Day07;
 // }
 
 //String tokenizer: Used for splitting a string into tokens (words, numbers, etc.)
-import java.util.StringTokenizer;
+// import java.util.StringTokenizer;
 
-public class classWork{
-    public static void main(String[] args) {
-        String str = "Java,Python,C++,JavaScript";
-        StringTokenizer st = new StringTokenizer(str, ",");
+// public class classWork{
+//     public static void main(String[] args) {
+//         String str = "Java,Python,C++,JavaScript";
+//         StringTokenizer st = new StringTokenizer(str, ",");
 
-        while (st.hasMoreTokens()) {
-            System.out.println(st.nextToken());
-        }
-    }
-}
+//         while (st.hasMoreTokens()) {
+//             System.out.println(st.nextToken());
+//         }
+//     }
+// }
