@@ -1,7 +1,6 @@
 package Day07;
 
 import java.util.ArrayList;
-// import java.util.Scanner;
 import java.util.Scanner;
 
 class Student{
@@ -47,7 +46,7 @@ class GradeManager{
 
     String findStudentByName(String name){
         for(Student std : students){
-            if(name.equals(std.getName())){
+            if(name.equalsIgnoreCase(std.getName())){
                 return "Student found with Name: " + std.getName() + " and Avg: " + std.avg;
             }
         }

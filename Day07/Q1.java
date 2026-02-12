@@ -36,7 +36,7 @@ class Library {
 
     String searchByTitle(String t) {
         for (Book book : books) {
-            if (t.equals(book.getTitle())) {
+            if (t.equalsIgnoreCase(book.getTitle())) {
                 return "Title: " + book.getTitle() + " Author: " + book.getAuthor() + " ISBN: " + book.getIsbn();
             }
         }
